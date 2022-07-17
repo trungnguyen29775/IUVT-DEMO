@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-1-main---snh-a2-104">
+        <li class="text">1. Main - Sảnh A2-104</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-11-im-n-bn-phi---snh-a2-104">
+        <li class="text">1.1. Điểm đến bên phải - Sảnh A2-104</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-12-im-n-hnh-nh-10-h---snh-a2104">
+        <li class="text">1.2. Điểm đến hình ảnh 10 hđ - Sảnh A2.104</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-2-main---ng-n-snh-a2">
+        <li class="text">2. Main - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-21-im-n-1---ng-n-snh-a2">
+        <li class="text">2.1 Điểm đến 1 - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-22-im-n-2---ng-n-snh-a2">
+        <li class="text">2.2 Điểm đến 2 - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-23-im-n-3---ng-n-snh-a2">
+        <li class="text">2.3 Điểm đến 3 - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-24-im-n-4---ng-n-snh-a2">
+        <li class="text">2.4 Điểm đến 4 - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-25-im-n-5---ng-n-snh-a2">
+        <li class="text">2.5 Điểm đến 5 - Đường đến sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-3-main---snh-a2">
+        <li class="text">3. Main - Sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-31-im-n-1---snh-a2">
+        <li class="text">3.1 Điểm đến 1 - sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-32-im-n-2---snh-a2">
+        <li class="text">3.2 Điểm đến 2 - sảnh A2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-4-snh-a1">
+        <li class="text">4. Sảnh A1</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
